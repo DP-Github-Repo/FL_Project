@@ -151,7 +151,7 @@ if __name__ == "__main__":
         aggregator_loss.append(loss)
         aggregator_accuracy.append(accuracy)
 
-        pyplot.plot(range(len(aggregator_accuracy)), aggregator_accuracy, label="Accuracy")
-        pyplot.plot(range(len(aggregator_loss)), aggregator_loss, label="loss")
-        pyplot.legend()
-        pyplot.show()
+    pyplot.plot(range(len(aggregator_accuracy)), aggregator_accuracy, label="Accuracy")
+    pyplot.plot(range(len(aggregator_loss)), aggregator_loss, label="loss")
+    pyplot.legend()
+    pyplot.show()
